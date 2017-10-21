@@ -1,0 +1,52 @@
+/* Product Image Carousel */
+.carousel-inner {
+    margin-bottom:5px!important
+}
+.carousel-inner .item {
+    margin-bottom:0!important
+}
+.carousel-link .thumb {
+    width:25%;
+    height: 90px;
+    cursor:pointer;
+    float:left;
+    padding:5px
+}
+.carousel-link {
+    margin-left:-5px;
+    margin-right:-5px
+}
+.carousel-link .thumb img {
+  margin: 0 auto;
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.carousel-fade .carousel-inner .item {
+  height: 570px;
+    opacity:0;
+    -webkit-transition-property:opacity;
+    -moz-transition-property:opacity;
+    -o-transition-property:opacity;
+    transition-property:opacity
+}
+.carousel-fade .carousel-inner .active {
+    opacity:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left:0;
+    opacity:0;
+    z-index:1
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity:1
+}
+.carousel-fade .carousel-control {
+    z-index:2
+}

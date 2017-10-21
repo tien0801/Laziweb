@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap - Jquery</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+	<!-- Menu Hover Bootstrap Responsive Mobile -->
+	<link rel="stylesheet" type="text/css" href="css/btr-menu.min.css">
+	
+	<!-- Slider Bootstrap thumb-img -->
+	<link rel="stylesheet" type="text/css" href="css/slider-thumb-img.css">
+
+
+</head>
+
+<body>
+
+	
+<!-- Menu Hover Bootstrap Responsive Mobile -->
+	<div class="container">
+	<h1>Menu Hover Bootstrap Responsive Mobile</h1>
+	<!-- <nav class="navbar navbar-inverse navbar-fixed-top"> -->
+  	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			    <span class="sr-only">Toggle navigation</span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Project name</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+			    <li class="active"><a href="#">Home</a></li>
+			    <li class=""><a href="#">Menu1</a></li>
+			    <li><a href="">Menu2</a>
+					<ul>
+						<li><a href="#">About sub 1</a></li>
+						<li><a href="#">About sub 2</a></li>
+						<li><a href="#">About sub 3</a></li>
+						<li><a href="#">About sub 4</a></li>
+					</ul>
+			    </li>
+			   
+				<li><a href="#">Product</a>
+					<ul>
+						<li><a href="#">About sub 1</a></li>
+						<li><a href="#">About sub 2</a>
+							<ul>
+								<li><a href="#">About sub 2-1</a></li>
+								<li><a href="#">About sub 2-2</a></li>
+								<li><a href="#">About sub 2-3</a></li>
+								<li><a href="#">About sub 2-4</a></li>
+							</ul>
+						</li>
+						<li><a href="#">About sub 3</a></li>
+						<li><a href="#">About sub 4</a></li>
+					</ul>
+				</li>
+
+			     <li><a href="#">About All</a>
+					<ul>
+						<li><a href="#">About sub 1</a></li>
+						<li><a href="#">About sub 2</a>
+							<ul>
+								<li><a href="#">About sub 2-1</a></li>
+								<li><a href="#">About sub 2-2</a></li>
+								<li><a href="#">About sub 2-3</a>
+									<ul>
+										<li><a href="#">About sub 2-3-1</a></li>
+										<li><a href="#">About sub 2-3-2</a></li>
+										<li><a href="#">About sub 2-3-3</a></li>
+										<li><a href="#">About sub 2-3-4</a></li>
+									</ul>
+								</li>
+								<li><a href="#">About sub 2-4</a></li>
+							</ul>
+						</li>
+						<li><a href="#">About sub 3</a></li>
+						<li><a href="#">About sub 4</a></li>
+					</ul>
+				</li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		</div>
+    </nav>
+	</div>    
+	
+<!-- Tab Button Change News - Isotope -->
+	<div class="container">
+	<h1>Tab Button Change News - Isotope</h1>
+	<div class="big-demo go-wide" data-js="filtering-demo">
+	  <div class="filter-button-group button-group js-radio-button-group">
+	    <button class="button is-checked" data-filter="*">show all</button>
+	    <button class="button" data-filter=".metal">metal</button>
+	    <button class="button" data-filter=".transition">transition</button>
+	    <button class="button" data-filter=".alkali, .alkaline-earth">alkali &amp; alkaline-earth</button>
+	    <button class="button" data-filter=":not(.transition)">not transition</button>
+	    <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+	    <button class="button" data-filter="numberGreaterThan50">number &gt; 50</button>
+	    <button class="button" data-filter="ium">name ends with &#x2013;ium</button>
+		<button class="button" data-filter=".metal">metal</button>
+		<button class="button" data-filter=".vbt">VBT</button>
+	  </div>
+
+		<div class="grid">
+			<div class="element-item transition vbt" data-category="vbttest"><h4>VBT</h4></div>
+	      <div class="element-item transition metal " data-category="transition">
+	        <h5 class="name">Mercury</h5>	      
+	      </div>
+	      <div class="element-item metalloid " data-category="metalloid">
+	        <h5 class="name">Tellurium</h5>	        
+	      </div>
+	      <div class="element-item post-transition metal " data-category="post-transition">
+	        <h5 class="name">Bismuth</h5>	       
+	      </div>
+	      <div class="element-item post-transition metal " data-category="post-transition">
+	        <h5 class="name">Lead</h5>	       
+	      </div>
+	      <div class="element-item transition metal " data-category="transition">
+	        <h5 class="name">Gold</h5>	        
+	      </div>
+	      <div class="element-item alkali metal " data-category="alkali">
+	        <h5 class="name">Potassium</h5>	       
+	      </div>
+	      <div class="element-item alkali metal " data-category="alkali">
+	        <h5 class="name">Sodium</h5>	        
+	      </div>
+	      <div class="element-item transition metal " data-category="transition">
+	        <h5 class="name">Cadmium</h5>	        
+	      </div>
+	      <div class="element-item alkaline-earth metal " data-category="alkaline-earth">
+	        <h5 class="name">Calcium</h5>	       
+	      </div>
+	      <div class="element-item transition metal " data-category="transition">
+	        <h5 class="name">Rhenium</h5>	        
+	      </div>
+	      <div class="element-item post-transition metal " data-category="post-transition">
+	        <h5 class="name">Thallium</h5>	        
+	      </div>
+	      <div class="element-item metalloid " data-category="metalloid">
+	        <h5 class="name">Antimony</h5>	        
+	      </div>
+	      <div class="element-item transition metal " data-category="transition">
+	        <h5 class="name">Cobalt</h5>	        
+	      </div>
+	      <div class="element-item lanthanoid metal inner-transition " data-category="lanthanoid">
+	        <h5 class="name">Ytterbium</h5>	        
+	      </div>
+	      <div class="element-item noble-gas nonmetal " data-category="noble-gas">
+	        <h5 class="name">Argon</h5>	        
+	      </div>
+	      <div class="element-item diatomic nonmetal " data-category="diatomic">
+	        <h5 class="name">Nitrogen</h5>	        
+	      </div>
+	      <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+	        <h5 class="name">Uranium</h5>	        
+	      </div>
+	      <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+	        <h5 class="name">Plutonium</h5>	       
+	      </div>
+	  </div>     
+	</div>
+	</div>
+
+<!-- Slider Bootstrap thumb-img -->
+	<div class="container">
+		<h1>Slider Bootstrap thumb-img</h1>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 images">
+		    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+	            <div class="carousel-inner">
+                    <div class="item active"><span class="inner-zoom"><img class="img-responsive" src="http://demo2.laziweb.com/rosemary_public/public/uploads/images/hinh-san-pham/dam/6.jpg" alt="Đầm chữ A tay phối sọc kèm dây thắt nơ"></span></div>
+                    <div class="item "><span class="inner-zoom"><img class="img-responsive" src="http://demo2.laziweb.com/rosemary_public/public/uploads/images/hinh-san-pham/dam/7.jpg" alt="Đầm chữ A tay phối sọc kèm dây thắt nơ"></span></div>
+                    <div class="item "><span class="inner-zoom"><img class="img-responsive" src="http://demo2.laziweb.com/rosemary_public/public/uploads/images/hinh-san-pham/dam/5.jpg" alt="Đầm chữ A tay phối sọc kèm dây thắt nơ"></span></div>
+                    <div class="item "><span class="inner-zoom"><img class="img-responsive" src="http://demo2.laziweb.com/rosemary_public/public/uploads/images/danh-muc-tieu-bieu/can1.jpg" alt="Đầm chữ A tay phối sọc kèm dây thắt nơ"></span></div>
+                </div>
+		        <div class="carousel-link clearfix">
+                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="http://demo2.laziweb.com/rosemary_public/public/uploads/images/hinh-san-pham/dam/6.jpg" alt="Đầm chữ A tay phối sọc kèm dây thắt nơ"></div>
+                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="http://demo2.laziweb.com/rosemary_public/public/uploads/images/hinh-san-pham/dam/7.jpg" alt="Đầm chữ A tay phối sọc kèm dây thắt nơ"></div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="http://demo2.laziweb.com/rosemary_public/public/uploads/images/hinh-san-pham/dam/5.jpg" alt="Đầm chữ A tay phối sọc kèm dây thắt nơ"></div>
+                    <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="http://demo2.laziweb.com/rosemary_public/public/uploads/images/danh-muc-tieu-bieu/can1.jpg" alt="Đầm chữ A tay phối sọc kèm dây thắt nơ"></div>
+               	</div>
+		    </div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		</div>
+	</div>
+
+<!-- Animating Numbers Counting Up with jQuery - Waypoints -->
+	<div class="container">
+		<h1> Animating Numbers Counting Up with jQuery - Waypoints</h1>
+		<div class="count" style="font-weight: bold; font-size: 50px; text-align: center; color: red">
+			5000
+		</div>
+	</div>
+
+<!--  -->
+
+<!-- <!---------------------------------------------------------------------------------> -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+
+<!-- Menu Hover Bootstrap Responsive Mobile -->
+	<script src="js/btr-menu.js"></script>
+ 	<script>
+		$(document).ready(function () {
+			$("#navbar").btrmenu();
+
+      // $("#navbar").btrmenu({
+      //    desktopsubmenuicon: true,
+      //    mobileiconpack: "glyphicon",
+      //    mobileopenicon: "glyphicon-chevron-down",
+      //    mobilecloseicon: "glyphicon-chevron-up",
+      // });
+		});
+	</script>
+
+<!-- Tab Button Change News - Isotope -->
+	<script src="js/isotope-docs.min.js?5"></script>
+
+<!-- Animating Numbers Counting Up with jQuery - Waypoints -->
+	<script src="js/waypoints-min.js"></script>
+	<script type="text/javascript">
+		 $(window).load(function(){
+            if(jQuery('.count').length){
+                jQuery(".count").counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+            }
+        });
+	</script>
+
+</body>
+</html>
